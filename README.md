@@ -18,7 +18,14 @@
 ## Usage
 
 ### Demo
- 1. `bash demo.sh`
+  1. `bash train.sh` for training the watermark and alpha saving in result folder and remove watermark from original image.
+
+### Tips
+
+ - Training tips
+  1. if the watermark free result is not good enough, you can change `--iters` (refer to train.sh)
+  2. if the training process is too long to wait, you can change `--watermark_threshold` (refer to train.sh)
+  3. if you get tk_inter error, you can change `--save_result` (refer to train.sh)
 
 ### Customer
  1. Put all watermarked images into one folder
