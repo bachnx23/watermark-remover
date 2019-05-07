@@ -10,6 +10,10 @@
 
 <div align=left><img width="200" height="360" src="https://github.com/whitelok/watermark-remover/blob/master/.resource/result.png?raw=true"/></div>
 
+## Docker runtime
+
+ - docker pull whitelok/watermark-remover
+
 ## Install
 
  1. `cd watermark-remover; pip3 install -r requirements.txt`
