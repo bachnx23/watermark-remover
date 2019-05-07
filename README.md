@@ -8,7 +8,13 @@
 
 ## Result
 
+### Result with demo images
+
 <div align=left><img width="200" height="360" src="https://github.com/whitelok/watermark-remover/blob/master/.resource/result.png?raw=true"/></div>
+
+### Result with pratical images
+
+<div align=left><img width="668" height="372" src="https://github.com/whitelok/watermark-remover/blob/master/.resource/practical-result.png?raw=true"/></div>
 
 ## Docker runtime [**Recommendation**]
 
