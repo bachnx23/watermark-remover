@@ -2,7 +2,7 @@
 
 ## Tips
 
-**If you want the source code, please email me.**
+**If you want the source code, please exchange with your code. I am not the free worker of you.**
 
 **Please run with Python 3.6.5**
 
