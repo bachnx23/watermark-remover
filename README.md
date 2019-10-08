@@ -18,7 +18,7 @@
 
 ## Docker runtime [**Recommendation**]
 
- - docker pull whitelok/watermark-remover
+ - docker pull whitelok/watermark-remover:v1.0
 
 ## Install
 
