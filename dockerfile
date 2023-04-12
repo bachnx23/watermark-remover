@@ -15,7 +15,7 @@ RUN apt-get install -y --no-install-recommends software-properties-common
 
 RUN apt-get update -y
 
-RUN wget https://bootstrap.pypa.io/get-pip.py
+RUN wget https://bootstrap.pypa.io/pip/3.6/get-pip.py
 
 RUN python3 get-pip.py && rm get-pip.py
 
