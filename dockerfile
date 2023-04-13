@@ -55,16 +55,16 @@ RUN mkdir -p ~/opencv/build && cd ~/opencv/build && \
           -D OPENCV_ENABLE_NONFREE=ON \
           -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
           .. && \
-     make -j"$(nproc)" install && \
-     ln -s /usr/local/include/opencv4/opencv2 /usr/local/include/opencv2
+     make -j"$(nproc)" install 
+#     && ln -s /usr/local/include/opencv4/opencv2 /usr/local/include/opencv2
 
-RUN find ~/opencv -name "cv2.cpython-3*m-x86_64-linux-gnu.so"
+#RUN find ~/opencv -name "cv2.cpython-3*m-x86_64-linux-gnu.so"
 
-RUN ls /usr/lib/python3/dist-packages
+#RUN ls /usr/lib/python3/dist-packages
 
-RUN git clone https://github.com/bachnx23/watermark-remover.git /root/watermark-remover
+#RUN git clone https://github.com/bachnx23/watermark-remover.git /root/watermark-remover
 
-RUN pip install coloredlogs
+#RUN pip install coloredlogs
 
-WORKDIR /root/watermark-remover
+#WORKDIR /root/watermark-remover
 
